@@ -3,8 +3,54 @@ Git Codes
 cd   // change directory
 ls   // all files on the directory
 
+git log // all commit list
 git clone <link> // cloning a repo to a local device
 git status  // status of the git is it up to dated
 git add <file> // adding file
 git add. // add all files
 git commit -m"Message" // git commit
+git push origin main // git push
+
+// It is ideal to make a repo in github and then clone it to the local system
+
+
+git remote add orgin <link>
+git remote -v // checking the remote
+git brach // checking the brach
+git branch -M main // changing the name of a brach. write new name here
+git push -u orgin main // setting up stream for push
+// next time u can push with only git push
+
+
+// Branches
+
+git branch // all branch list
+git checkout // changing brach
+git checkout -b <new branch name> // creating a new brach
+git branch -d <brach name> // deleting brach. Cant delete a brach on which you are present.
+
+// Merging
+
+/PR - Pull request
+- from github
+
+git pull origin main // pull from github to local
+
+
+// undo
+
+// stagged file undo
+git reset <file name> // undo stagged changes. Not commited
+git reset // all stagged changes undo
+
+// for a single commit to undo
+git reset HEAD~1 // last commit undo
+
+// for multiple commit to undo
+git reset < commit hash > // to undo all commits after a particular commit hash
+git reset --hard <commit hash> // This undo changes from the vs code too
+
+
+// Create a fork of a repo 
+// make changes then start a pr to merge your changes
+
