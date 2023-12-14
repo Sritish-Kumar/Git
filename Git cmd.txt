@@ -1,0 +1,10 @@
+Git Codes
+
+cd   // change directory
+ls   // all files on the directory
+
+git clone <link> // cloning a repo to a local device
+git status  // status of the git is it up to dated
+git add <file> // adding file
+git add. // add all files
+git commit -m"Message" // git commit

@@ -1,1 +1,1 @@
-Git Check
+Git init
